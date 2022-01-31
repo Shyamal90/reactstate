@@ -1,0 +1,27 @@
+.counterApp{
+    border: 1px solid black;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.counterApp button{
+    margin-right: 5px;
+}
+
+.counterApp button:hover{
+    color: green;
+    border: 2px solid green;
+}
+
+.counterApp button:active{
+    border: 2px solid red;
+    color: red;
+}
+
+.counterApp #heading{
+    font-size: 20px;
+    font-family: sans-serif;
+}
